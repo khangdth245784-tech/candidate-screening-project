@@ -1,41 +1,46 @@
-# Candidate Screening Project
-Welcome! We understand that as university students, you likely do not have any prior web development experience. That is completely okay, and in fact, it is exactly what we are looking for. 
+# Getting Started with Create React App
 
-## Project Philosophy: What We Are Testing
-This project is deliberately designed using technologies you haven't learned yet. We are not testing your existing web development knowledge. Instead, we are evaluating:
-* Your Learning Agility: How effectively you can tackle an unfamiliar problem and learn new concepts on the fly.
-* Reading Comprehension: Your ability to read, understand, and apply technical documentation and tutorials written in English.
-* Git & GitHub Skills: Your ability to use industry-standard version control correctly.
-* Tool Utilization: How well you use modern tools (like AI, search engines, and IDEs) to overcome roadblocks.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Feature Requirements
-Your primary task is to read and follow this English tutorial to create a basic application: [How to Build a Shopping List Using React Hooks](https://www.freecodecamp.org/news/how-to-build-a-shopping-list-using-react-hooks-w-starter-code-and-video-walkthrough/). 
+## Available Scripts
 
-Once you have the base app working, use documentation and your research skills to add the following requirements:
-1. Completed item quantities should not be counted in the total.
-2. Prevent the end-user from entering a duplicate item name.
-3. Cloud & Deployment: Create a new project in Firebase, and use Firebase Studio to code and deploy your application to Firebase. Use Firebase's database solutions (like Firestore or Realtime Database) to store the todos. Use Firebase hosting to deploy your project to the cloud. 
-4. Show off your design skills to make it easy and intuitive for the user to use your app.
+In the project directory, you can run:
 
-## General Expectation: Resourcefulness & AI
-Be resourceful. You are highly encouraged to use modern tools, including AI assistants (such as ChatGPT, GitHub Copilot, Gemini, etc.), to help you learn the concepts and build this application.
+### `npm start`
 
-However, you must fully understand what the AI does. Do not blindly copy and paste code. If you are selected for the next round, you will be asked to explain the code, how you found the solution, and what the code is doing line-by-line. Your ability to leverage these tools to learn, rather than just to cheat, is a core part of this assessment.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Technical & Workflow Requirements
-* Git & GitHub: Fork this project to your account in Github (https://github.com/your-username/candidate-screening-project) and use it as your submission.
-* Show Your Work: Do not just make one massive commit at the end. We want to see your Git history. Commit your code regularly with clear, descriptive messages in English to show us your step-by-step progress and problem-solving process.
-* Add aduyng@gmail.com as a collaborator on the new project (so that I can read your code).
-* Use Create React App to create a new project in Javascript or Typescript.
-* Integrate Material-UI (MUI) into this project and use it as the UI framework. Reading their documentation will be key here.
-* Complete the project on or before the assigned deadline.
-* Once completed, send an email to aduyng@gmail.com with the subject "I completed my project". In the body of the email, provide your name and the URL to the forked project on GitHub.
-  
-## Evaluation Factors
-The most important judging factors are at the top.
-* Learning & Comprehension (The Interview): You fully understand your code (and any AI-generated code) and can confidently explain how it works and how you figured it out.
-* Git Workflow: Your GitHub repository shows a clear history of regular commits with meaningful commit messages.
-* Requirement Satisfaction: All feature and technical requirements as described above are successfully implemented.
-* Error-Free: Free of ESLint errors and Google Chrome (or Firefox) Devtool errors/warnings.
-* Code Quality: Clean code, proper naming conventions, and an attempt at writing readable code, demonstrating good foundational programming habits.
-* Modern React: Proper use of React hooks as described in the React documentation.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
